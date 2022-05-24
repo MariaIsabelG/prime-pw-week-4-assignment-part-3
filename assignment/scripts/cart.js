@@ -23,5 +23,10 @@ listItems('bread');
 listItems('milk');
 listItems('butter');
 
-function empty(reset){
-  
+
+function empty(anyArray){
+        anyArray.length=0
+        return anyArray
+    }
+
+console.log('Basket is now empty:', empty(basket))
