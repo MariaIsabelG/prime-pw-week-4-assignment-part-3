@@ -5,10 +5,15 @@ console.log('***** Cart Functions *****');
 let basket=[];
 
 function addCart(newItem){
-    if(newItem=basket.push('item'));
-            return true
-        }
-console.log('We added an item to the cart, so it should be true:', addCart());
+    console.log('Is it true we added an item?', addCart())
+  for(i=0; i<basket.length; i++){
+      basket.push(newItem)
+      if(basket[i])
+      return true
+  }
+}
+
+
 
 let list;
 function listItems(list){
@@ -29,4 +34,4 @@ function empty(anyArray){
         return anyArray
     }
 
-console.log('Basket is now empty:', empty(basket))
+
