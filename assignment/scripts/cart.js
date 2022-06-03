@@ -14,6 +14,8 @@ function addCart(newItem){
 }
 console.log('Added shampoo, so it should be true:', addCart('shampoo'))
 
+//adding an item to the basket array
+
 let list;
 function listItems(list){
     for(let i=0;i<basket.length;i++){
@@ -22,7 +24,7 @@ function listItems(list){
 }
 console.log(listItems(list))
 
-
+//logging the items in the basket array
 
 function empty(anyArray){
         anyArray.length=0
@@ -30,3 +32,4 @@ function empty(anyArray){
     }
 console.log('Emptied the basket:', empty(basket));
 
+//clearing the basket array
