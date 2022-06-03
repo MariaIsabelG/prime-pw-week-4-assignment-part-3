@@ -14,21 +14,27 @@ function addCart(newItem){
 }
 console.log('Added shampoo, so it should be true:', addCart('shampoo'))
 
-
 let list;
- function listItems(list){
-    console.log('The list of items include:', list)
-    for(let i=0;i<basket.length; i++){
-    basket.push(list)
-    return basket
+function listItems(list){
+    for(let i=0;i<basket.length;i++){
+        return list = basket[i]
     }
 }
+console.log(listItems(list))
 
-listItems('chocolate');
-listItems('bread');
-listItems('milk');
-listItems('butter');
+//let list;
+// function listItems(list){
+//    console.log('The list of items include:', list)
+//    for(let i=0;i<basket.length; i++){
+//    basket.push(list)
+//    return basket
+//    }
+//}
 
+//listItems('chocolate');
+//listItems('bread');
+//listItems('milk');
+//listItems('butter');
 
 
 //function empty(anyArray){
